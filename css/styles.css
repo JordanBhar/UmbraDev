@@ -1,0 +1,138 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar{
+    height: 200px;
+    
+}
+
+.nav-link{
+    font-size: 20px;
+    margin: 25px;
+}
+
+.navItems{
+    padding: 0px 0px 0px 0px;
+}
+
+.bg-purple{
+    background-color: rgb(72, 0, 155);
+}
+
+.text-purple{
+    color: rgb(72, 0, 155) ;
+}
+
+.border-purple{
+    border-color: rgb(72, 0, 155);
+    color: #48009b;
+    
+}
+
+.nav-link:hover{
+    font-weight: 600;
+    border-bottom: 1px solid #ffff
+}
+
+
+.menu-bar .navbar-toggler {
+    padding-right: 20px;
+    outline: none!important;
+    border: none!important;
+}
+
+div.dropdown-menu.show{
+    position: relative;
+    right: 0;
+    text-align: end;
+}
+
+@media only screen and (max-width: 1000px){
+    div.dropdown-menu.show{
+        margin: 20px;
+        text-align: start;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    .navbar{
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    .mediaButtonsBottom{
+        position: relative;
+        bottom: 20;
+  
+    }
+}
+
+
+
+.customimg-fluid{
+    width: 100%;
+    height: 500px;
+}
+
+
+.purpleDiv{
+    background-image: linear-gradient(135deg, #48009b , #7F11AD ) ;
+    background-repeat: repeat-y;
+    height: auto;
+    margin-bottom: 50px;
+}
+
+.purpleDiv2{
+    background-image: linear-gradient(135deg, #7F11AD ,  #48009b) ;
+    background-repeat: repeat-y;
+    height: auto;
+}
+
+
+.bannerGif{
+    aspect-ratio: 16/9;
+}
+
+.icon_img{
+    margin-left: 50px;
+}
+
+.fs-XL{
+    font-size: 100px;
+}
+
+/* Carousel base class */
+.carousel {
+    margin-bottom: 4rem;
+  }
+  /* Since positioning the image, we need to help out the caption */
+  .carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+  }
+  
+  /* Declare heights because of positioning of img element */
+  .carousel-item {
+    height: 32rem;
+  }
+
+  /* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  /* rtl:begin:ignore */
+  .marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+  }
+ 
+  
+footer{
+    background-color: #48009b;
+}
+  
