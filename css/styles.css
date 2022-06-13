@@ -57,6 +57,16 @@ div.dropdown-menu.show{
     }
 }
 
+@media only screen and (max-width: 850px){
+    .carousel-img{
+        position: absolute;
+        top: 50px;
+        left: 50px;
+        padding: 50px;
+        
+    }
+}
+
 @media only screen and (max-width: 1000px){
     .navbar{
         height: auto;
