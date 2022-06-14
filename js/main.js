@@ -5,10 +5,10 @@ document.body.addEventListener("touchstart", playVideo)
 
 function playVideo (){
 
-    var banner = document.getElementById("animatedBanner")
+    const banner = document.getElementById("animatedBanner")
 
     if(banner.playing){
-    
+        
     }else{
         banner.play
     }
