@@ -61,15 +61,6 @@ div.dropdown-menu.show{
     }
 }
 
-@media only screen and (max-width: 850px){
-    .carousel-img{
-        position: absolute;
-        top: 50px;
-        left: 50px;
-        padding: 50px;
-        
-    }
-}
 
 @media only screen and (max-width: 1000px){
     .navbar{
@@ -86,11 +77,11 @@ div.dropdown-menu.show{
 }
 
 
+
 .purpleDiv{
     background-image: linear-gradient(135deg, #48009b , #7F11AD ) ;
     background-repeat: repeat-y;
     height: auto;
-    margin-bottom: 50px;
 }
 
 .purpleDiv2{
@@ -105,17 +96,18 @@ div.dropdown-menu.show{
 }
 
 /* Carousel base class */
-.carousel-img{
-    top: 50px;
-    left: 50px;
-    padding: 50px;
-    
-}
+
 
 .carousel {
     margin-bottom: 4rem;
+    /* this needs to be 1 so the user can still click the buttons, if not the buttons act if they are disabled*/
     z-index: 1;
   }
+
+.carousel-indicators{
+    height: -200px;
+}
+  
   /* Since positioning the image, we need to help out the caption */
   .carousel-caption {
     bottom: 3rem;
@@ -124,7 +116,7 @@ div.dropdown-menu.show{
   
   /* Declare heights because of positioning of img element */
   .carousel-item {
-    height: 32rem;
+    height: 45rem;
     z-index: -1;
   }
 
