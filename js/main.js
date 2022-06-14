@@ -1,5 +1,7 @@
 document.addEventListener('DOMContentLoaded', function(){
+    var banner = document.getElementById("animatedBanner")
 
+    
 
 document.body.addEventListener("touchstart", playVideo)
 
