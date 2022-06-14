@@ -5,7 +5,7 @@
 }
 
 .navbar{
-    height: 200px;
+    height: 125px;
     
 }
 
@@ -20,6 +20,10 @@
 
 .bg-purple{
     background-color: rgb(72, 0, 155);
+}
+
+.bg-transparent{
+    background: rgba(0, 0, 0, 0.5);
 }
 
 .text-purple{
@@ -82,13 +86,6 @@ div.dropdown-menu.show{
 }
 
 
-
-.customimg-fluid{
-    width: 100%;
-    height: 500px;
-}
-
-
 .purpleDiv{
     background-image: linear-gradient(135deg, #48009b , #7F11AD ) ;
     background-repeat: repeat-y;
@@ -103,21 +100,21 @@ div.dropdown-menu.show{
 }
 
 
-.bannerGif{
-    aspect-ratio: 16/9;
-}
-
-.icon_img{
-    margin-left: 50px;
-}
-
 .fs-XL{
     font-size: 100px;
 }
 
 /* Carousel base class */
+.carousel-img{
+    top: 50px;
+    left: 50px;
+    padding: 50px;
+    
+}
+
 .carousel {
     margin-bottom: 4rem;
+    z-index: 1;
   }
   /* Since positioning the image, we need to help out the caption */
   .carousel-caption {
@@ -128,6 +125,7 @@ div.dropdown-menu.show{
   /* Declare heights because of positioning of img element */
   .carousel-item {
     height: 32rem;
+    z-index: -1;
   }
 
   /* Center align the text within the three columns below the carousel */
