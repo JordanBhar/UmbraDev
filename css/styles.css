@@ -76,6 +76,13 @@ div.dropdown-menu.show{
     }
 }
 
+@media only screen and (max-width: 1000px){
+    #bannerText{
+        margin-bottom: 300px;
+    }
+}
+
+
 
 
 .purpleDiv{
@@ -100,6 +107,7 @@ div.dropdown-menu.show{
 }
 
 /* Carousel base class */
+
 
 #animatedBanner{
     
