@@ -1,8 +1,5 @@
 document.addEventListener('DOMContentLoaded', function(){
-    var banner = document.getElementById("animatedBanner")
-    banner.style.zIndex = "-10"
     
-
 document.body.addEventListener("touchstart", playVideo)
 
 function playVideo (){

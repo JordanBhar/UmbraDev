@@ -102,7 +102,11 @@ div.dropdown-menu.show{
 /* Carousel base class */
 
 #animatedBanner{
+    
     overflow: hidden;
+    min-height: 100%;
+    min-width: 100%;
+    z-index: -10;
 }
 
 .carousel {
