@@ -6,7 +6,6 @@
 
 .navbar{
     height: 125px;
-    
 }
 
 .nav-link{
@@ -58,7 +57,7 @@ div.dropdown-menu.show{
 @media only screen and (max-width: 1000px){
     #bannerText{
         margin-top: 1em;
-        margin-bottom: 560px;
+        margin-bottom: 580px;
     }
 
     .mediaButtonsBottom{
@@ -81,9 +80,6 @@ div.dropdown-menu.show{
         text-align: start;
     }
 }
-
-
-
 
 .purpleDiv{
     background-image: linear-gradient(135deg, #48009b , #7F11AD ) ;
