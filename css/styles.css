@@ -101,6 +101,9 @@ div.dropdown-menu.show{
 
 /* Carousel base class */
 
+#animatedBanner{
+    overflow: hidden;
+}
 
 .carousel {
     margin-bottom: 4rem;
