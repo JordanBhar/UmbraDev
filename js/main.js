@@ -12,7 +12,7 @@ function playVideo (){
     if(banner.playing){
         
     }else{
-        banner.play
+        banner.play()
     }
 }
 
