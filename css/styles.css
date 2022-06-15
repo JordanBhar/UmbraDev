@@ -54,31 +54,31 @@ div.dropdown-menu.show{
     text-align: end;
 }
 
+
 @media only screen and (max-width: 1000px){
-    div.dropdown-menu.show{
-        margin: 20px;
-        text-align: start;
+    #bannerText{
+        margin-top: 1em;
+        margin-bottom: 560px;
     }
-}
 
-
-@media only screen and (max-width: 1000px){
-    .navbar{
-        height: auto;
-    }
-}
-
-@media only screen and (max-width: 1000px){
     .mediaButtonsBottom{
         position: relative;
         bottom: 20;
   
     }
-}
 
-@media only screen and (max-width: 1000px){
-    #bannerText{
-        margin-bottom: 300px;
+    .navbar{
+        height: 70px;
+    }
+
+    .navbar-shrink{
+        height: 3em;
+        width: 3em;
+    }
+
+    div.dropdown-menu.show{
+        margin: 20px;
+        text-align: start;
     }
 }
 
